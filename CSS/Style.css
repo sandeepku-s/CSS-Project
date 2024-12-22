@@ -87,12 +87,12 @@ a{text-decoration: none; color: #fff;}
 .labels{padding: 10px 20px; margin: 0px 20px; border-radius: 5px; border: var(--black2) 1px solid;}
 .labels:hover{background-color: var(--red1);}
 .labels:hover a{color: #fff;}
-.items_card{margin: 0px 10px; float: left; border: var(--black3) 1px solid; padding: 0px 1px 10px 1px; border-radius: 5px; box-shadow: 2px 2px 8px var(--black2);}
-.items_img1{background-image: url(../Images/a1.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
-.items_img2{background-image: url(../Images/b1.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
-.items_img3{background-image: url(../Images/a2.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
-.items_img4{background-image: url(../Images/b2.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
-.items_img5{background-image: url(../Images/a3.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.items_card{width: 17%; margin: 0px 10px; float: left; border: var(--black3) 1px solid; padding: 0px 1px 10px 1px; border-radius: 5px; box-shadow: 2px 2px 8px var(--black2);}
+.items_img1{background-image: url(../Images/a1.png); height: 250px; background-repeat: no-repeat; background-size: cover; background-color: #f4f4f4; border-radius: 5px;}
+.items_img2{background-image: url(../Images/b1.png); height: 250px; background-repeat: no-repeat; background-size: cover; background-color: #f4f4f4; border-radius: 5px;}
+.items_img3{background-image: url(../Images/a2.png); height: 250px; background-repeat: no-repeat; background-size: cover; background-color: #f4f4f4; border-radius: 5px;}
+.items_img4{background-image: url(../Images/b2.png); height: 250px; background-repeat: no-repeat; background-size: cover; background-color: #f4f4f4; border-radius: 5px;}
+.items_img5{background-image: url(../Images/a3.png); height: 250px; background-repeat: no-repeat; background-size: cover; background-color: #f4f4f4; border-radius: 5px;}
 .cart_btn{margin: 0 auto; font-family: Rubik-Light; font-size: 15px; text-align: center;
     width: 100px; padding: 7px 10px; transition: all 1s; border: var(--black2) 1px solid; border-radius: 5px;}
 .cart_btn a{color: #000;}
@@ -104,11 +104,13 @@ a{text-decoration: none; color: #fff;}
 .item_price b{font-size: 18px;}
 
 /* Cashback Banner */
-.cashback{background-color: #e8e8ea; height: 400px;}
+.cashback{background-color: #e8e8ea; height: 400px; position: relative;}
+
 .cashback_wrap{width: 50%; height: 400px; float: left;}
+.cashback_banner{background-image: url(../Images/bgs2.jpg); background-repeat: no-repeat; background-size: cover; width: 50%; height: 400px; float: right;}
+
 .cashback_col1{width: 600px; height: 400px; float: left; position: relative; z-index: 1;}
 .cashback_col1 img{width: 400px; height: 400px;}
-.cashback_col2{width: 400px; height: 400px; float: right;}
 .col1_content{position: absolute; top: 100px; left: 280px; z-index: 1;}
 ._con1{text-align: right; font-family: Rubik-VariableFont_wght;}
 ._con2{text-align: right; font-family: Rubik-BoldItalic; font-weight: bold; font-size: 40px;}
@@ -116,12 +118,18 @@ a{text-decoration: none; color: #fff;}
 ._con3{text-align: right; font-family: Rubik-VariableFont_wght; margin-top: 50px;}
 ._con3 a{color: var(--red1); transition: color 2s; text-shadow: 3px 2px 3px var(--blue1);}
 ._con3 a:hover{color: var(--black1);}
-.cashback_banner{background-image: url(../Images/bgs2.jpg); background-repeat: no-repeat; background-size: cover; width: 50%; height: 400px; float: right;}
+
+.cashback_col2{width: 500px; height: 400px; float: right; position: relative;}
 .org_btn{margin: 180px auto;}
-.org_btn span{font-family: Rubik-SemiBold; font-weight: bold; font-size: 20px; color: #fff; border: #fff 2px solid; padding: 20px; background-color: #000; border-radius: 10px;}
+.org_btn span{font-family: Rubik-SemiBold; font-weight: bold; font-size: 20px; color: #fff; border: #fff 2px solid; padding: 20px; background-color: #000; border-radius: 10px;
+position: absolute; top: 150px; left: 200px;
+}
+
+.banner_con_wrap{width: 1100px; margin: 0 auto; position: relative;}
+.Banner_content{position: absolute; top: 0px; left: -50px; margin: 0 auto;}
 
 /* Special Deals */
-.banner_wrap{width: 1100px; height: 700px; position: relative; z-index: 1;}
+.banner_wrap{width: 1100px; height: 650px; position: relative; z-index: 1;}
 .banner1_2{float: left; width: 610px; margin: 0 auto; position: relative; z-index: 1;}
 .banner1{background-image: url(../Images/bgs3.jpg); background-repeat: no-repeat; background-size: cover; height: 290px; margin: 0px 0px 20px 0px; border-radius: 10px; position: relative; z-index: 1;}
 .banner2{background-image: url(../Images/bgs5.jpg); background-repeat: no-repeat; background-size: cover; height: 290px; border-radius: 10px; position: relative; z-index: 1;}
@@ -135,8 +143,31 @@ a{text-decoration: none; color: #fff;}
 .banner3 #banner3_con .ban3_con:nth-child(3){font-family: Rubik-Light;}
 
 /* Top Brands */
-/* .brands{background-color: #e8e8ea;} */
-.brands .brand_header{width: 200px; font-family: Rubik-Italic-VariableFont_wght; font-size: 30px; font-weight: bold; text-align: center; margin-bottom: 50px; color: var(--red1);}
+.brands .brand_header{width: 200px; font-family: Rubik-Italic-VariableFont_wght; font-size: 30px; font-weight: bold; text-align: center; margin-bottom: 30px; color: var(--red1);}
+.brand_icon_wrap{width: 1100px; height: 170px;}
+.brand_icon_wrap .brand_icon{float: right; margin: 0px 30px;}
+.brand_icon_wrap .brand_icon img{width: 160px; height: 100px; background-color: #f4f4f4; border-radius: 10px;}
 
+/* Newsletter */
+#form{height: 70px; background-color: var(--blue1); padding: 50px 0px;}
+#form #form_elements{width: 1100px; background-color: #e1d8d8;}
+#form #form_elements #form_con{width: 530px; float: left; font-family: Rubik-SemiBold; color: #fff;}
+#form #form_elements #form_con #form_con1{font-size: 40px;}
+#form #form_elements #form_con #form_con2{font-family: Rubik-Light; font-size: 15px; opacity: .8;}
+#form #form_elements #form_email{width: 480px; float: right; position: relative;}
+#form #form_elements #form_email #Email{margin: 0 auto; outline: none; border: #fff 0px solid; height: 40px; width: 340px; border-radius: 20px; font-size: 16px; padding: 0px 140px 0px 10px;}
+#form #form_elements #form_email #form_btn{position: absolute; top: 11px; left: 380px;}
+#form #form_elements #form_email #form_btn #Email_btn{background-color: var(--red1); font-size: 15px; padding: 12px 50px; color: #fff;border: none; border-radius: 0px 20px 20px 0px;}
+#form #form_elements #form_email #Email::placeholder{position: absolute; left: 10px;}
 
+/* Contact Us */
+#Contact{width: 1100px; height: 240px; padding: 80px 0px;}
+#Contact #Contact_header .Contact_tit{width: 255px; margin: 0px 10px 0px 0px; float: left; font-family: Rubik-VariableFont_wght; font-size: 25px;}
+.address,.info,.social_button_list{list-style-type: none; font-size: 15px; color: #000;}
+.address a{color: #000;}
+.info a{color: #000;}
+.social_button_list li{display: inline; padding: 8px 8px; margin: 0px 2px; font-size: 14px; background-color: var(--black3); border-radius: 50%;}
+.social_button_list a{color: #000;}
 
+/* Footer */
+.page_footer{text-align: center; padding: 30px; border-top: 1px solid var(--black2);}
