@@ -1,0 +1,117 @@
+@import url(Font.css);
+
+body{margin: 0px; padding: 0px; font-family: Rubik-Regular;}
+a{text-decoration: none; color: #fff;}
+*{margin: 0 auto;}
+
+:root {
+    --black1: #060606;
+    --black2: #B7B7B7;
+    --black3: #e1d8d8;
+    --black4: #222222;
+
+    --blue1: #233a95;
+    --blue2: #2c365e;
+
+    --red1: #ed174a;
+    --red2: #fef1f4;
+}
+
+/* CUSTOM CLASSES */
+
+/* width */ 
+.w1100{width: 1100px;}  .w550{width: 550px;}    .w40{width: 40px;}     .w600{width: 600px;}     .w500{width: 5;}
+/* height */ 
+.h50{height: 50px;}   .h150{height: 150px;}   .h200{height: 200px;}   .h40{height: 40px;}
+/* padding */ 
+.p10{padding: 10px;}    .p20{padding: 20px;}    .p12{padding: 12px;}    .p18{padding: 18px;}
+.px10{padding: 0px 10px;}    .px20{padding: 0px 20px;}  .px30{padding: 0px 30px;}
+.py10{padding: 10px 0px;}    .py20{padding: 20px 0px;}  .py30{padding: 30px 0px;}
+/* margin */
+.mauto{margin: 0 auto;}     .oauto{overflow: auto;}
+.mrx10{margin: 0px 10px;}     .mrx20{margin: 0px 20px;}     .mrx100{margin: 0px 100px;}
+.mry10{margin: 10px 0px;}     .mry20{margin: 20px 0px;}     .mry100{margin: 100px 0px;}     .mry30{margin: 30px 0px;}
+.mrl100{margin: 0px 100px 0px 0px;}
+/* float */ 
+.fleft{float: left;}    .fright{float: right;}
+/* background */ 
+.bgc1{background-color: var(--black1);}     .bgc2{background-color: var(--red2);}       .bgc3{background-color: var(--blue2);}
+/* fore-ground color */
+.fgc1{color: var(--black1);}    .fgc2{color: var(--black2);}    .fgc3{color: var(--black3);} 
+.fgc4{color: var(--red1);}   .fgc5{color: var(--red1);}  
+.fgwhite{color: #fff;} 
+/* border-radius */
+.bradius{border-radius: 50%;}
+/* opacity */
+.op_7{opacity: 0.7;}
+
+
+
+
+
+/* header1 */
+.header1{padding: 30px 0px 20px 0px;}
+.profile_icon{border-radius: 50%; border: 1px solid var(--black3);}
+.header_con{width: 750px; margin: 0 auto; text-align: center;}
+#con1{font-family: Rubik-Bold; font-size: 30px;}
+#con2{font-family: Rubik-Light; font-size: 12px;}
+
+/* menu */
+#menu{height: 80px; background-color: var(--blue1); position: sticky; top: 0px;}
+#menu_wrap{width: 650px; margin: 0 auto;}
+.menu_con,.sub_menu{margin:0px;padding:0px;list-style-type:none;}
+#list .menu_con{float:left; width:auto; margin:30px 15px; font-size: 20px; position:relative; border-radius: 5px; transition: all .5s;}
+.menu_con:hover{border-bottom: 1px solid #fff;}
+#list .menu_con ul{display:none;}
+#list .menu_con:hover ul{display:block; position:absolute; left:20px; background-color: #fff; border-radius: 10px;}
+.sub_menu a{font-family: Rubik-SemiBold; font-size: 15px; color: #000;padding: 0px 15px 5px 0px;}
+.sub_menu a:hover{color: var(--red1);}
+
+/* banner */
+#banner{height: 510px; background-image: url(../Images/mart.jpg);background-repeat: no-repeat; background-size: 100%;}
+.inner_banner{width: 1100px; padding: 150px 0px;}
+.con1{font-family: Rubik-VariableFont_wght; font-size: 18px; padding-bottom:15px;}
+.con2{font-family: Rubik-BoldItalic; font-size: 50px; margin-bottom: 30px;}
+.shop_btn{margin: 0px; background-color: var(--red1); 
+    font-family: Rubik-VariableFont_wght; font-size: 18px; font-weight: bold; text-align: center; 
+    width: 100px; border-radius: 10px; padding: 15px 20px; transition: all 1s;}
+.shop_btn:hover{background-color: var(--blue1);}
+.ban_pic img{width: 500px;}
+
+/* vegetables */
+.vegetables{width: 1100px; height: 500px; padding: 50px 0px 100px 0px; margin: 0 auto;}
+.item_header{font-family: Rubik-Italic-VariableFont_wght; font-size: 30px; font-weight: bold; text-align: center; margin-bottom: 50px; color: var(--red1);}
+.items{width: 1100px; text-align: center;}
+.labels a{color: var(--black1); font-family: Rubik-SemiBold; font-size: 17px;}
+.labels{padding: 10px 20px; margin: 0px 20px; border-radius: 5px; border: var(--black2) 1px solid;}
+.labels:hover{background-color: var(--red1);}
+.labels:hover a{color: #fff;}
+.items_card{margin: 0px 10px; float: left; border: var(--black3) 1px solid; padding: 0px 1px 10px 1px; border-radius: 5px; box-shadow: 2px 2px 8px var(--black2);}
+.items_img1{background-image: url(../Images/a1.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.items_img2{background-image: url(../Images/b1.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.items_img3{background-image: url(../Images/a2.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.items_img4{background-image: url(../Images/b2.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.items_img5{background-image: url(../Images/a3.png); height: 250px; width: 196px; background-repeat: no-repeat; background-color: #f4f4f4; border-radius: 5px;}
+.cart_btn{margin: 0 auto; font-family: Rubik-Light; font-size: 15px; text-align: center;
+    width: 100px; padding: 7px 10px; transition: all 1s; border: var(--black2) 1px solid; border-radius: 5px;}
+.cart_btn a{color: #000;}
+.cart_btn:hover{background-color: var(--blue1);}
+.cart_btn:hover a{color: #fff;}
+.item_lebel{margin-top: 30px;}
+.item_lebel a{color: var(--red1); font-weight: bold; font-size: 20px;}
+.item_price{margin: 10px 0px; font-family: Rubik-Light; font-size: 15px;}
+.item_price b{font-size: 18px;}
+
+/* Cashback Banner */
+.cashback{background-color: #e8e8ea; height: 400px;}
+.cashback_wrap{width: 1100px; height: 400px;}
+.cashback_col1{width: 650px; height: 400px; float: left; position: relative;}
+.cashback_col1 img{width: 400px; height: 400px;}
+.cashback_col2{width: 550px; height: 400px; float: right;}
+.col1_content{position: absolute; top: 100px; left: 280px;}
+._con1{text-align: right; font-family: Rubik-VariableFont_wght;}
+._con2{text-align: right; font-family: Rubik-BoldItalic; font-weight: bold; font-size: 40px;}
+._con2 span{font-family: Rubik-VariableFont_wght; color: var(--red1);}
+._con3{text-align: right; font-family: Rubik-VariableFont_wght; margin-top: 50px;}
+._con3 a{color: var(--red1); transition: color 2s; text-shadow: 3px 2px 3px var(--blue1);}
+._con3 a:hover{color: var(--black1);}

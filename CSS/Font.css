@@ -1,0 +1,75 @@
+@font-face {
+    font-family: EuphoriaScript-Regular;src: url(fonts/EuphoriaScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: secuencia;src: url(fonts/f1-secuencia-quad-ffp.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Black;src: url(fonts/Rubik-Black.ttf)
+}
+
+@font-face {
+    font-family: Rubik-BlackItalic;src: url(fonts/Rubik-BlackItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Bold;src: url(fonts/Rubik-Bold.ttf)
+}
+
+@font-face {
+    font-family: Rubik-BoldItalic;src: url(fonts/Rubik-BoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-ExtraBold;src: url(fonts/Rubik-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family: Rubik-ExtraBoldItalic;src: url(fonts/Rubik-ExtraBoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Italic-VariableFont_wght;src: url(fonts/Rubik-Italic-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Italic;src: url(fonts/Rubik-Italic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Light;src: url(fonts/Rubik-Light.ttf)
+}
+
+@font-face {
+    font-family: Rubik-LightItalic;src: url(fonts/Rubik-LightItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Medium;src: url(fonts/Rubik-Medium.ttf)
+}
+
+@font-face {
+    font-family: Rubik-MediumItalic;src: url(fonts/Rubik-MediumItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-Regular;src: url(fonts/Rubik-Regular.ttf)
+}
+
+@font-face {
+    font-family: Rubik-SemiBold;src: url(fonts/Rubik-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: Rubik-SemiBoldItalic;src: url(fonts/Rubik-SemiBoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Rubik-VariableFont_wght;src: url(fonts/Rubik-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Sunfresh;src: url(fonts/Sunfresh\ TTF\ Personal.ttf)
+}
